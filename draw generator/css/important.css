@@ -1,0 +1,53 @@
+
+/* styles.css */
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+
+  #modal-body {
+    height: 100vh;
+  }
+  /* Apply black background to the fullscreen modal */
+.fullscreen-bg {
+    background-color: #000; /* Set background color to black */
+}
+  #fullscreen-image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.8) contrast(1.2); /* Apply filter to the image */
+  }
+  
+  .winner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    color: white; /* Set text color to white */
+  }
+  
+  .winner-text h1 {
+    font-size: 3em; /* Adjust heading font size as needed */
+    margin-bottom: 20px; /* Add space below heading */
+  }
+  
+  .winner-text p {
+    font-size: 1.5em; /* Adjust paragraph font size as needed */
+    margin-bottom: 0; /* Remove default bottom margin */
+  }
+  #winner {
+    margin: 0 5px; /* Adjust the margin as needed */
+}
+  .modal-img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+  
